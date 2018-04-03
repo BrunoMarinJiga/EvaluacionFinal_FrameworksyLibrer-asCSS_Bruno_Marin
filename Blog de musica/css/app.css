@@ -1,0 +1,59 @@
+html{
+  width: 95%;
+  margin:0 auto;
+  height: 100%;
+  background-color: blue;
+}
+header{
+  margin-bottom: 20px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 5%;
+}
+.rojo{
+  background-color: red;
+}
+.azul{
+  background-color: blue;
+}
+.celeste{
+  background-color: #00B9FF;
+}
+.imagenlogo{
+  width: 100%;
+}
+
+.nav{
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+img[class^='estiloimg']{
+  width: 20%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 35%;
+}
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+/*******************************************************************************/
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  text-decoration-color: black;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}
